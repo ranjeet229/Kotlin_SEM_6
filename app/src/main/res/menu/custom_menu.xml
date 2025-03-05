@@ -3,27 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_search"
-        android:title="Search"
-        android:icon="@android:drawable/ic_menu_search"
-        app:showAsAction="never" />
+        android:title="Camera"
+        android:id="@+id/camera"
+        android:icon="@drawable/outline_photo_camera_24"
+        app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/action_settings"
-        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item
+        android:title="New group"
+        android:id="@+id/group"/>
+    <item
+        android:title="New broadcast"
+        android:id="@+id/broadcast"/>
+    <item
+        android:title="Linked devices"
+        android:id="@+id/Linked"/>
+    <item
         android:title="Settings"
-        app:showAsAction="ifRoom" />
-
-<!--    <item-->
-<!--        android:id="@+id/action_whatsapp"-->
-<!--        android:icon="@drawable/profile"-->
-<!--        android:title="WhatsApp"-->
-<!--        app:showAsAction="ifRoom" />-->
-
-<!--    <item-->
-<!--        android:id="@+id/action_instagram"-->
-<!--        android:icon="@drawable/ic_instagram"-->
-<!--        android:title="Instagram"-->
-<!--        app:showAsAction="ifRoom" />-->
+        android:id="@+id/settings"/>
 
 </menu>

@@ -15,7 +15,7 @@
         android:paddingTop="30dp"
         android:background="@color/lavender"
         app:logo="@drawable/outline_mark_unread_chat_alt_24"
-        app:title="WhatsApp"
+        app:title="Message"
         app:titleMarginStart="30dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/CustomPopupMenu"

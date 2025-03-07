@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/black"
     tools:context=".ScrollView">
 
     <ImageView
@@ -26,6 +27,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:textColor="@color/white"
                 android:text="Paragraph types: Comparison or contrast paragraphs, Descriptive paragraphs,
                 Narrative paragraphs, Classifying paragraphs, and Cause and effect paragraphs.
                 When to start a new paragraph: When making a transition between ideas,

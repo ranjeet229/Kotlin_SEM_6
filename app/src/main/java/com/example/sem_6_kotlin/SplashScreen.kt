@@ -14,9 +14,9 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
         supportActionBar?.hide();
         android.os.Handler().postDelayed({
-            startActivity(Intent(this,ProcessBar::class.java))
+            startActivity(Intent(this,ScrollView::class.java))
             finish()
-        },3000)
+        },2000);
 
     }
 }

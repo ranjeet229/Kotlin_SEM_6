@@ -16,7 +16,6 @@ class ProcessBar : AppCompatActivity() {
         val progressbar = findViewById<ProgressBar>(R.id.progressbar)
             progressbar.max=1000;
             val currentProgress=600;
-
         ObjectAnimator.ofInt(progressbar,"Progress",currentProgress)
             .setDuration(3000).start();
     }

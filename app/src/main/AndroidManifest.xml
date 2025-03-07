@@ -13,13 +13,19 @@
         android:theme="@style/Theme.Sem_6_kotlin"
         tools:targetApi="31">
         <activity
+            android:name=".Ratingbar"
+            android:exported="false" />
+        <activity
+            android:name=".Toolbar"
+            android:exported="false" />
+        <activity
             android:name=".ScrollView"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Toolbar"
+            android:name=".ProcessBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
